@@ -2,8 +2,13 @@
 
 import Container from "@/components/ui/Container";
 import SectionHeader from "@/components/ui/SectionHeader";
-import { InstagramLogoIcon } from "@phosphor-icons/react";
-import { User } from "lucide-react";
+import {
+  FacebookLogoIcon,
+  InstagramLogoIcon,
+  ThreadsLogoIcon,
+  TiktokLogoIcon,
+  YoutubeLogoIcon,
+} from "@phosphor-icons/react";
 
 export default function MediaSocial() {
   return (
@@ -16,7 +21,7 @@ export default function MediaSocial() {
             description="Ikuti Kami di Media Sosial"
           />
         </Container>
-        <div className="grid grid-cols-5 grid-flow-col gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col justify-center items-center">
             <div className="w-16 h-16 bg-green-50 text-brand-green rounded-full flex  items-center justify-center text-2xl font-bold">
               <InstagramLogoIcon />
@@ -24,28 +29,28 @@ export default function MediaSocial() {
             <div>Instagram</div>
           </div>
           <div className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col justify-center items-center">
-            <div className="w-16 h-16 bg-green-50 text-brand-green rounded-full flex  items-center justify-center text-2xl font-bold">
-              <InstagramLogoIcon />
+            <div className="w-16 h-16 bg-blue-50 text-blue-500 rounded-full flex  items-center justify-center text-2xl font-bold">
+              <FacebookLogoIcon />
             </div>
-            <div>Instagram</div>
+            <div>Facebook</div>
           </div>
           <div className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col justify-center items-center">
-            <div className="w-16 h-16 bg-green-50 text-brand-green rounded-full flex  items-center justify-center text-2xl font-bold">
-              <InstagramLogoIcon />
+            <div className="w-16 h-16 bg-gray-50 text-gray-500 rounded-full flex  items-center justify-center text-2xl font-bold">
+              <TiktokLogoIcon />
             </div>
-            <div>Instagram</div>
+            <div>Tiktok</div>
           </div>
           <div className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col justify-center items-center">
-            <div className="w-16 h-16 bg-green-50 text-brand-green rounded-full flex  items-center justify-center text-2xl font-bold">
-              <InstagramLogoIcon />
+            <div className="w-16 h-16 bg-red-50 text-red-500 rounded-full flex  items-center justify-center text-2xl font-bold">
+              <YoutubeLogoIcon />
             </div>
-            <div>Instagram</div>
+            <div>Youtube</div>
           </div>
           <div className="bg-white p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col justify-center items-center">
-            <div className="w-16 h-16 bg-green-50 text-brand-green rounded-full flex  items-center justify-center text-2xl font-bold">
-              <InstagramLogoIcon />
+            <div className="w-16 h-16 bg-gray-50 text-gray-500 rounded-full flex  items-center justify-center text-2xl font-bold">
+              <ThreadsLogoIcon />
             </div>
-            <div>Instagram</div>
+            <div>Thread</div>
           </div>
         </div>
       </Container>

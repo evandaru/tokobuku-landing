@@ -22,7 +22,7 @@ export default function FloatingWhatsApp() {
 
     return (
         <Link
-            href="https://wa.me/6281234567890?text=Halo Kak, saya mau konsultasi tentang layanan DevKita"
+            href="https://wa.me/6281234567890?text=Halo Kak, saya mau konsultasi tentang layanan Toko buku"
             target="_blank"
             className={`
                 fixed bottom-8 right-8 z-50 flex items-center justify-center

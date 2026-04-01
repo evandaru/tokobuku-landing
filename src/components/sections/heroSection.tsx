@@ -30,14 +30,14 @@ export default function HeroSection() {
           </div>
 
           {/* IMAGE */}
-          <div className="relative w-full h-[300px] md:h-[400px]">
+          <div className="relative w-full h-75 md:h-75">
             <Image
-              src="https://images.unsplash.com/photo-1618365908648-e71bd5716cba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://images.unsplash.com/photo-1732584477778-5c9f06353a41?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Buku"
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               loading="eager"
-              className="object-contain"
+              className="object-contain rounded-2xl"
             />
           </div>
         </div>

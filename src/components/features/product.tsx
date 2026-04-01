@@ -32,7 +32,7 @@ export default function ProductCard({ product }: Props) {
         </span>
       )}
 
-      <div className="relative w-full aspect-[4/3] mb-3 overflow-hidden rounded-lg shrink-0">
+      <div className="relative w-full aspect-4/3 mb-3 overflow-hidden rounded-lg shrink-0">
         <Image
           src={product.image_url}
           alt={product.name}
