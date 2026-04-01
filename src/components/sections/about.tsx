@@ -1,5 +1,3 @@
-"use client";
-
 import Container from "@/components/ui/Container";
 import SectionHeader from "@/components/ui/SectionHeader";
 
@@ -10,8 +8,8 @@ export default function About() {
       id="about"
     >
       <Container>
-        <section className="py-16">
-          <Container className="flex flex-col">
+
+          <Container className="flex flex-col py-16">
             <SectionHeader
               title="Mengapa Memilih buku kami?"
               align="center"
@@ -63,7 +61,6 @@ export default function About() {
               </div>
             </div>
           </Container>
-        </section>
       </Container>
     </section>
   );

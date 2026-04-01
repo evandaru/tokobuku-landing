@@ -14,8 +14,7 @@ export default async function Catalog() {
   const { data } = res.data;
 
   return (
-    <section className="py-16" id="catalog">
-      <Container className="flex flex-col ">
+      <Container className="flex flex-col py-16">
         <SectionHeader
           title="Koleksi Buku"
           align="center"
@@ -35,6 +34,5 @@ export default async function Catalog() {
           Lihat Semua Katalog →
         </Link>
       </Container>
-    </section>
   );
 }

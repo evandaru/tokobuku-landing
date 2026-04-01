@@ -7,10 +7,23 @@ import Link from "next/link";
 
 export const dynamic = "force-dynamic";
 
-export const metadata = {
-  title: "Katalog Buku Islami | Ziyad Books",
-  description: "Temukan koleksi buku Islami terbaik untuk keluarga muslim.",
-};
+export async function generateMetadata({ searchParams }: Props) {
+  const resolvedSearchParams = await searchParams;
+  const page = resolvedSearchParams.page || "1";
+
+  const title =
+    page === "1"
+      ? "Katalog Buku Islami"
+      : `Katalog Buku Islami - Halaman ${page}`;
+
+  return {
+    title: title,
+    description: `Jelajahi koleksi buku Islami terbaik untuk keluarga muslim di halaman ${page}.`,
+    openGraph: {
+      title: title,
+    },
+  };
+}
 
 interface Props {
   searchParams: Promise<{ page?: string }>;

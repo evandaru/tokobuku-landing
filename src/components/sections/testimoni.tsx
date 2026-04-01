@@ -6,7 +6,7 @@ import { User } from "lucide-react";
 
 export default function Testimonial() {
   return (
-    <section className="py-16 " id="about">
+    <section className="py-16 " id="testimoni">
       <Container>
         <Container className="flex flex-col ">
           <SectionHeader

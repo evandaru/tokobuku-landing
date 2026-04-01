@@ -18,9 +18,26 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "Ziyad - Toko Buku Islam",
+  metadataBase: new URL("https://toko-buku-landing.vercel.app"),
+  title: {
+    default: "Toko buku - Toko Buku Islam",
+    template: "%s | toko buku",
+  },
   description:
-    "ZiyadBook memberikan beberapa katalog buku yang dapat membantu keluarga untuk belajar agama islam.",
+    "Toko Buku memberikan beberapa katalog buku yang dapat membantu keluarga untuk belajar agama islam.",
+  openGraph: {
+    title: "Toko buku - Toko Buku Islam",
+    description: "Koleksi buku Islami terbaik untuk keluarga.",
+    url: "https://toko-buku-landing.vercel.app",
+    siteName: "Toko buku",
+    locale: "id_ID",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Toko buku - Toko Buku Islam",
+    description: "Koleksi buku Islami terbaik untuk keluarga.",
+  },
 };
 
 export default function RootLayout({

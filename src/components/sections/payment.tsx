@@ -1,5 +1,4 @@
-"use client";
-
+'use client'
 import Container from "@/components/ui/Container";
 import SectionHeader from "@/components/ui/SectionHeader";
 import Image from "next/image";
@@ -11,8 +10,8 @@ export default function Payment() {
   return (
     <section className="py-16 bg-gray-100" id="payment">
       <Container>
-        <section className="py-16">
-          <Container className="flex flex-col">
+
+          <Container className="flex py-16 flex-col">
             <SectionHeader
               title="Belanja Mudah dan Aman"
               align="center"
@@ -90,7 +89,7 @@ export default function Payment() {
               </div>
             </div>
           </Container>
-        </section>
+
       </Container>
     </section>
   );

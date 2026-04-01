@@ -1,5 +1,5 @@
-const BASE_URL = process.env.NEXT_PUBLIC_URL;
-const TOKEN = process.env.NEXT_PUBLIC_TOKEN;
+const BASE_URL = process.env.URL;
+const TOKEN = process.env.TOKEN;
 
 export async function fetcher<T>(endpoint: string): Promise<T> {
   const res = await fetch(`${BASE_URL}${endpoint}`, {

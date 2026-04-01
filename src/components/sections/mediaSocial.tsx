@@ -1,5 +1,4 @@
-"use client";
-
+'use client'
 import Container from "@/components/ui/Container";
 import SectionHeader from "@/components/ui/SectionHeader";
 import {
@@ -12,7 +11,7 @@ import {
 
 export default function MediaSocial() {
   return (
-    <section className="py-16 bg-green-50" id="about">
+    <section className="py-16 bg-green-50" id="media-social">
       <Container>
         <Container className="flex flex-col ">
           <SectionHeader
