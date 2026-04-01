@@ -1,7 +1,7 @@
 import { fetcher } from "@/lib/api";
 import { ApiResponse } from "@/types/product";
 import ProductCard from "@/components/features/product";
-import Pagination from "@/components/ui/Pagination";
+import Pagination from "@/components/ui/pagination";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 

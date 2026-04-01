@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Container from "@/components/ui/Container";
-import SectionHeader from "@/components/ui/SectionHeader";
+import Container from "@/components/ui/container";
+import SectionHeader from "@/components/ui/section-header";
 
 export default function FAQ() {
   const [open, setOpen] = useState<number | null>(null);

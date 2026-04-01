@@ -1,5 +1,5 @@
-import Container from "@/components/ui/Container";
-import Button from "@/components/ui/Button";
+import Container from "@/components/ui/container";
+import Button from "@/components/ui/button";
 import Image from "next/image";
 
 export default function HeroSection() {

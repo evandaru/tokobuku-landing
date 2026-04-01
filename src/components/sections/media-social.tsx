@@ -1,6 +1,6 @@
-'use client'
-import Container from "@/components/ui/Container";
-import SectionHeader from "@/components/ui/SectionHeader";
+"use client";
+import Container from "@/components/ui/container";
+import SectionHeader from "@/components/ui/section-header";
 import {
   FacebookLogoIcon,
   InstagramLogoIcon,

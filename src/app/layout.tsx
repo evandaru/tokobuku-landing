@@ -2,8 +2,8 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/features/navbar";
 import Footer from "@/components/features/footer";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
-import { GridPatternBackground } from "@/components/ui/GridPattern";
+import FloatingWhatsApp from "@/components/sections/floating-whatsApp";
+import { GridPatternBackground } from "@/components/ui/grid-pattern";
 
 const inter = Inter({
   subsets: ["latin"],

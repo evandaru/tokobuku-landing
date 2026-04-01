@@ -1,7 +1,7 @@
 "use client";
 
-import Container from "@/components/ui/Container";
-import SectionHeader from "@/components/ui/SectionHeader";
+import Container from "@/components/ui/container";
+import SectionHeader from "@/components/ui/section-header";
 import { User } from "lucide-react";
 
 export default function Testimonial() {
