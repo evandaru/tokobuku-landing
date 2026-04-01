@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Toko Buku Landing Page
 
-## Getting Started
+Web landing page dan katalog e-commerce untuk Toko Buku. Dibangun menggunakan Next.js dan Tailwind CSS. 
 
-First, run the development server:
+- https://toko-buku-landing.vercel.app
+- https://toko-buku-landing.vercel.app/products
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js 16
+- React 19
+- Tailwind CSS v4
+- TypeScript
+- Phosphor Icons & Lucide React
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Cara install localnya
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone repo:
 
-## Learn More
+   ```bash
+   git clone https://github.com/evandaru/tokobuku-landing.git
+   cd tokobuku-landing
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   pnpm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Copy dari buat `.env` dengan cara ini
+   ```
+   cp .env.example .env
+   ```
+   trus di isi `.env` token dan url yang sudah di sediakan
 
-## Deploy on Vercel
+    ```env
+    URL=
+    TOKEN=
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Jalankan server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   pnpm run dev
+   ```
+
+5. buka http://localhost:3000/ buat liat hasilnya atau dengan mengakses website https://toko-buku-landing.vercel.app
+
+## beberapa screenshot project
+
+Halaman Landing Page
+![Halaman Landing Page - Desktop](img/image.png)
+
+Halaman Landing Page - Mobile
+![alt text](img/image-2.png)
+
+Halaman katalog - Tablet
+![alt text](img/image-3.png)
+
+WhatsApp
+![alt text](img/image-4.png)
