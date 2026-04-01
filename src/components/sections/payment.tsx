@@ -3,7 +3,7 @@ import Container from "@/components/ui/container";
 import SectionHeader from "@/components/ui/section-header";
 import Image from "next/image";
 import Link from "next/link";
-import Button from "../ui/button";
+import Button from "@/components/ui/button";
 import { WhatsappLogoIcon } from "@phosphor-icons/react";
 
 export default function Payment() {

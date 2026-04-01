@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Product } from "@/types/product";
-import Button from "../ui/button";
+import Button from "@/components/ui/button";
 import { ShoppingBag } from "lucide-react";
 
 interface Props {
